@@ -12,10 +12,10 @@
 #include <stdio.h>
 
 /**
- * 
- *
- *
- *
+ * Ce programme affiche avec la commande echo : processus 1, processus 3 et processus 5
+ * utilise la commande sleep entre processus 1-3 pour attendre 10msec  
+ *    ||   ||   ||      ||    ||      ||     3-5 pour attendre 5msec
+ * Une fois les 5 processus terminer il va affiché : terminé
  * @return     0 
  */
 int main() {

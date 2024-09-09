@@ -11,7 +11,7 @@
             "${file}", 
             "-o", 
             "${fileDirname}/${fileBasenameNoExtension}",
-            "lh"],
+            ],
         "options": {
           "cwd": "${fileDirname}"
         },
